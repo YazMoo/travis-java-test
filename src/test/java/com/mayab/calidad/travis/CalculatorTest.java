@@ -25,17 +25,17 @@ public class CalculatorTest {
 	@Test
 	public void testSub() {
 		Calculator calc = new Calculator();
-		assertEquals(calc.sub(1, 1), 0);
+		assertEquals(calc.sub(1, 1), 3);
 	}
 	@Test
 	public void testMul() {
 		Calculator calc = new Calculator();
-		assertEquals(calc.mul(3, 5), 15);
+		assertEquals(calc.mul(3, 5), 20);
 	}
 	@Test
 	public void testDiv() {
 		Calculator calc = new Calculator();
-		assertEquals(calc.div(8, 2), 4);
+		assertEquals(calc.div(8, 2), 10);
 	}
 
 }
